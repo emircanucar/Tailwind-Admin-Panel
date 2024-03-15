@@ -1,0 +1,62 @@
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+
+  &.icon-select {
+    width: 10px;
+    height: 5px;
+    background-image: url("../img/icon/select.svg");
+  }
+  &.icon-search {
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/icon/search.svg");
+  }
+  &.icon-notifications {
+    background-image: url("../img/icon/notifications.svg");
+  }
+  &.icon-shape {
+    width: 14px;
+    height: 14px;
+    background-image: url("../img/icon/Shape.svg");
+  }
+  &.icon-arrow-right {
+    width: 8px;
+    height: 12px;
+    background-image: url("../img/icon/arrow-right.svg");
+  }
+  &.icon-arrow-left {
+    width: 8px;
+    height: 12px;
+    background-image: url("../img/icon/arrow-left.svg");
+  }
+  &.icon-grid {
+    background-image: url("../img/icon/grid.svg");
+  }
+  &.icon-people {
+    background-image: url("../img/icon/people.svg");
+  }
+  &.icon-list {
+    background-image: url("../img/icon/list.svg");
+  }
+  &.icon-calendar {
+    background-image: url("../img/icon/calendar.svg");
+  }
+  &.icon-easel {
+    background-image: url("../img/icon/easel.svg");
+  }
+  &.icon-hourglass {
+    background-image: url("../img/icon/hourglass.svg");
+  }
+  &.icon-chat-bubbles {
+    background-image: url("../img/icon/chatbubbles.svg");
+  }
+  &.icon-apps {
+    background-image: url("../img/icon/apps.svg");
+  }
+  &.icon-question-mark {
+    background-image: url("../img/icon/question-mark.svg");
+  }
+}

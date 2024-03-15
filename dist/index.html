@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.min.css?v=1.0.1" />
+  </head>
+
+  <body class="bg-slate-200">
+    <header>
+      <nav>
+        <div
+          class="navbar-wrapper bg-white h-16 rounded-b-xl flex px-5 gap-5 justify-between"
+        >
+          <div class="navbar-start flex gap-5">
+            <div class="user-select flex items-center gap-3">
+              <div class="user-select-img">
+                <img src="assets/img/icon/person-circle.svg" alt="" />
+              </div>
+              <div class="user-select-name">Jane S.</div>
+              <i class="icon icon-select"></i>
+            </div>
+            <div class="quick-search flex items-center gap-3 border-0">
+              <i class="icon icon-search"></i>
+              <input
+                type="text"
+                class="quick-search-box"
+                placeholder="Quick Search"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+          <div class="navbar-end flex items-center">
+            <i class="icon icon-notifications"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="grid-row-2 p-4">
+      <div class="grid grid-cols-12 gap-4">
+        <nav
+          class="sidenav col-span-2 flex flex-col gap-3 bg-white rounded-xl p-4"
+        >
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-grid"></i>
+              <span>Dashboard</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-people"></i>
+              <span>People</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-list"></i>
+              <span>Projects</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-calendar"></i>
+              <span>Calendar</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-easel"></i>
+              <span>Training</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-hourglass"></i>
+              <span>Timesheet</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-chat-bubbles"></i>
+              <span>Reports</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-apps"></i>
+              <span>Administration</span>
+            </div>
+          </a>
+          <a href="#?" class="flex w-full">
+            <div
+              class="sidenav-button flex gap-5 p-2 rounded items-center w-full"
+            >
+              <i class="sidenav icon icon-question-mark"></i>
+              <span>Help</span>
+            </div>
+          </a>
+        </nav>
+        <div class="facts-section col-span-4 bg-white rounded-xl p-5">
+          <div class="swiper companyFactsSwiper h-full w-full">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <span class="font-semibold block">Company Facts</span>
+                <span class="font-thin">Employes</span>
+                <div
+                  class="facts-section-chart h-4/5 w-4/5 m-auto"
+                  id="facts-section-chart"
+                ></div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="facts-section-chart h-4/5 w-4/5"
+                  id="facts-section-chart"
+                ></div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="stats-section col-span-4 bg-white rounded-xl p-5">
+          <div class="swiper statsSwiper h-full w-full">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <span class="font-semibold block">Statistics</span>
+                <div
+                  class="stats-section-chart h-full"
+                  id="stats-section-chart"
+                ></div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="facts-section-chart h-4/5 w-4/5"
+                  id="facts-section-chart"
+                ></div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="add-widget col-span-2">
+          <a href="#?">
+            <div
+              class="btn-add-widget flex gap-3 items-center justify-cen p-3 rounded-xl"
+            >
+              <i class="icon icon-shape"></i>
+              <span class="text-white">Add Widget</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 mt-4 gap-4">
+        <div class="col-span-2 flex flex-col justify-end">
+          <div
+            class="version-card bg-white rounded-xl p-5 flex flex-col items-center"
+          >
+            <span class="font-semibold block">CAMIOCA</span>
+            <span class="block">Version: 1.0.0.11</span>
+          </div>
+        </div>
+        <div class="risks-section col-span-4 bg-white rounded-xl p-5">
+          <span class="font-semibold block">Assigned Risks</span>
+          <div
+            class="risk-section-content h-96 flex items-center justify-center"
+          >
+            <span>There are no risks assigned.</span>
+          </div>
+        </div>
+        <div class="action-items-section col-span-4 bg-white rounded-xl p-5">
+          <span class="font-semibold block">Assigned Action Items</span>
+          <div
+            class="risk-section-content h-96 flex items-center justify-center"
+          >
+            <span>There are no action items assigned.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
+    ></script>
+    <script src="assets/js/home.js?v=1.0.0"></script>
+  </body>
+</html>

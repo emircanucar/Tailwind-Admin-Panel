@@ -1,0 +1,61 @@
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.icon.icon-select {
+  width: 10px;
+  height: 5px;
+  background-image: url("../img/icon/select.svg");
+}
+.icon.icon-search {
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/icon/search.svg");
+}
+.icon.icon-notifications {
+  background-image: url("../img/icon/notifications.svg");
+}
+.icon.icon-shape {
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/icon/Shape.svg");
+}
+.icon.icon-arrow-right {
+  width: 8px;
+  height: 12px;
+  background-image: url("../img/icon/arrow-right.svg");
+}
+.icon.icon-arrow-left {
+  width: 8px;
+  height: 12px;
+  background-image: url("../img/icon/arrow-left.svg");
+}
+.icon.icon-grid {
+  background-image: url("../img/icon/grid.svg");
+}
+.icon.icon-people {
+  background-image: url("../img/icon/people.svg");
+}
+.icon.icon-list {
+  background-image: url("../img/icon/list.svg");
+}
+.icon.icon-calendar {
+  background-image: url("../img/icon/calendar.svg");
+}
+.icon.icon-easel {
+  background-image: url("../img/icon/easel.svg");
+}
+.icon.icon-hourglass {
+  background-image: url("../img/icon/hourglass.svg");
+}
+.icon.icon-chat-bubbles {
+  background-image: url("../img/icon/chatbubbles.svg");
+}
+.icon.icon-apps {
+  background-image: url("../img/icon/apps.svg");
+}
+.icon.icon-question-mark {
+  background-image: url("../img/icon/question-mark.svg");
+}
